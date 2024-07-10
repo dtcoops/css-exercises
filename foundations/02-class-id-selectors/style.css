@@ -1,0 +1,30 @@
+.odd{
+    background-color: pink;
+    font-family: Verdana, "Dejavu Sans", sans-serif ;
+}
+
+.line3{
+    font-size: 24px;
+}
+
+#line2{
+    color: blue;
+    font-size: 36px;
+}
+
+#line4{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*
+Rather than duplicate font-size: 24px in .line3 and #line4
+Could make them a class "modify text" and modify that
+
+.modify_text{
+    font-size: 24px;
+}
+
+This would only need to be written once.
+*/
